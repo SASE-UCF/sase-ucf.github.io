@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Layout } from 'antd';
+import { Routes, Route, Link } from 'react-router-dom';
+import { PageFooter } from './components/PageFooter';
+import { PageSider } from './components/PageHeader';
+import { Home } from './pages/Home';
+import { Officers } from './pages/Officers';
+import { Social } from './pages/Social';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout>
+        <PageSider />
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/officers" element={<Officers />} />
+            <Route path="/social" element={<Social />} />
+            <Route
+              path="*"
+              element={
+                <>
+                  <p>There is nothing here!</p>
+                  <Link to="/">Home</Link>
+                </>
+              }
+            />
+          </Routes>
+          <PageFooter />
+        </Layout>
+      </Layout>
     </div>
   );
 }
