@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.7a39e5f9.js",
+    "main.css": "/static/css/main.a20f3a16.css",
+    "main.js": "/static/js/main.55ff868a.js",
     "static/js/787.3ebbe063.chunk.js": "/static/js/787.3ebbe063.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/officers.png": "/static/media/officers.1749c0812394ae2b78fc.png",
+    "static/media/rachel.png": "/static/media/rachel.0f27a0b1abfa7d045015.png",
+    "static/media/emir.webp": "/static/media/emir.dbc7ed983f999c51b244.webp",
+    "static/media/james.webp": "/static/media/james.324fa0cc2dd2cfb0f669.webp",
+    "static/media/anthony.jpeg": "/static/media/anthony.38e892944b58b7c64898.jpeg",
+    "static/media/annaBelinda.webp": "/static/media/annaBelinda.02f8505f228bdd7a04f2.webp",
+    "static/media/brinly.jpeg": "/static/media/brinly.a5603aa888557cce9e45.jpeg",
+    "static/media/zaaferah.webp": "/static/media/zaaferah.a189f339afdd4e3dca58.webp",
+    "static/media/koja.png": "/static/media/koja.481d6d0cfb5e1d178eb3.png",
+    "static/media/saseLogo.png": "/static/media/saseLogo.b983748cab7d58745053.png",
+    "static/media/joe.jpeg": "/static/media/joe.9208427cd5365a97196b.jpeg",
+    "static/media/saseLogo2.webp": "/static/media/saseLogo2.fc30fd9d96ca54457608.webp",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.7a39e5f9.js.map": "/static/js/main.7a39e5f9.js.map",
+    "main.a20f3a16.css.map": "/static/css/main.a20f3a16.css.map",
+    "main.55ff868a.js.map": "/static/js/main.55ff868a.js.map",
     "787.3ebbe063.chunk.js.map": "/static/js/787.3ebbe063.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7a39e5f9.js"
+    "static/css/main.a20f3a16.css",
+    "static/js/main.55ff868a.js"
   ]
 }
