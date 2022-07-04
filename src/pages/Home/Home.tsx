@@ -16,7 +16,7 @@ export const Home: React.FC<HomeProp> = () => {
         <Space direction="vertical" size="large">
           <Title>Welcome to SASE UCF!</Title>
           <Row gutter={16} style={{ padding: "0 20px" }}>
-            <Col span={12} style={{ textAlign: "left" }}>
+            <Col xs={24} sm={12} style={{ textAlign: "left" }}>
               <Title>Welcome!</Title>
               <Divider />
               <Text>Welcome to the website for the UCF chapter of SASE!</Text>
@@ -32,12 +32,13 @@ export const Home: React.FC<HomeProp> = () => {
                 to everyone regardless of gender, race, or creed.
               </Text>
             </Col>
-            <Col span={12}>
+            <Col xs={24} sm={12}>
               <Image src={officers} preview={false} />
             </Col>
           </Row>
+          <Divider />
           <Row gutter={16} style={{ padding: "0 20px" }}>
-            <Col span={12} style={{ textAlign: "left" }}>
+            <Col xs={24} sm={12} style={{ textAlign: "left" }}>
               <Text>
                 SASE’s mission is to prepare Asian heritage scientists and
                 engineers for success in the global business world, celebrate
@@ -55,7 +56,7 @@ export const Home: React.FC<HomeProp> = () => {
                 creed.
               </Text>
             </Col>
-            <Col span={12}>
+            <Col xs={24} sm={12}>
               <Image src={logo} preview={false} />
             </Col>
           </Row>

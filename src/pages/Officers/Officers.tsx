@@ -22,7 +22,7 @@ export const Officers: React.FC<OfficersProp> = () => {
       <Header style={{ padding: 0, backgroundColor: "transparent" }} />
       <Content>
         <Space direction="vertical" size="large">
-          <Title>Welcome to SASE UCF!</Title>
+          <Title>2021-2022 Officers</Title>
           <Row gutter={[16, 16]}>
             <Col span={8}>
               <Officer
