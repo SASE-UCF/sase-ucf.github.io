@@ -6,26 +6,26 @@ import {
 import { Image, Layout, Menu, Space } from "antd";
 import { ItemType } from "antd/lib/menu/hooks/useItems";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../resources/saseLogo.png";
 
 const { Sider } = Layout;
 
-export const PageHeader: React.FC = () => {
-  const [selectedKeys, setSelectedKeys] = useState<string[]>(["home"]);
+export const PageSider: React.FC = () => {
+  const location = useLocation();
   const items: ItemType[] = [
     {
-      key: "home",
+      key: "/",
       label: <Link to="/">Home</Link>,
       icon: <HomeOutlined />,
     },
     {
-      key: "officers",
+      key: "/officers",
       label: <Link to="/officers">Officers</Link>,
       icon: <UserOutlined />,
     },
     {
-      key: "social",
+      key: "/social",
       label: <Link to="/social">Social</Link>,
       icon: <AppstoreOutlined />,
     },
@@ -37,12 +37,8 @@ export const PageHeader: React.FC = () => {
         <Menu
           theme="light"
           mode="inline"
-          defaultSelectedKeys={["home"]}
-          onSelect={(props) => {
-            const { key } = props;
-            setSelectedKeys([key]);
-          }}
-          selectedKeys={selectedKeys}
+          defaultSelectedKeys={["/"]}
+          selectedKeys={[location.pathname]}
           items={items}
         />
       </Space>
