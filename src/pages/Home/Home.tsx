@@ -17,7 +17,7 @@ export const Home: React.FC<HomeProp> = () => {
           <Title>Welcome to SASE UCF!</Title>
           <Row gutter={16} style={{ padding: "0 20px" }}>
             <Col xs={24} sm={12} style={{ textAlign: "left" }}>
-              <Title>Welcome!</Title>
+              <Title>Welcome to SASE@UCF!</Title>
               <Divider />
               <Text>Welcome to the website for the UCF chapter of SASE!</Text>
               <br />
